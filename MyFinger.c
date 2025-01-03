@@ -26,6 +26,7 @@ int main(int argc, char *argv[])
         int m=0;
         int p=0;
         
+
         for (int i=1;i<argc;i++)
         {
             if(strcmp(argv[i],"-l")==0) {l=1;}
@@ -40,7 +41,7 @@ int main(int argc, char *argv[])
             
             else
             {
-                char utente[50];
+                char utente[100];
                 strcpy(utente,argv[i]);
                aggiunginome(utente);
                controllo=1;
