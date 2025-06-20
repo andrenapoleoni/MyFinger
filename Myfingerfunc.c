@@ -182,41 +182,6 @@ void aggiunginome(char* nome)
         strcat(arraynomi,nuovonome);
     }
     contr=0; 
-    
-    /*char nuovonome[50];
-    char arraycontrollo[100];
-    
-    // Copia sicura del nome
-    strncpy(nuovonome, nome, sizeof(nuovonome) - 1);
-    nuovonome[sizeof(nuovonome) - 1] = '\0';
-
-    // Inizializza arraycontrollo come copia di arraynomi
-    strncpy(arraycontrollo, arraynomi, sizeof(arraycontrollo) - 1);
-    arraycontrollo[sizeof(arraycontrollo) - 1] = '\0';
-
-    int contr = 0;
-    char *par = strtok(arraycontrollo, ",");
-
-    // Controlla se il nome esiste già in arraynomi
-    while (par != NULL) {
-        if (strcmp(par, nuovonome) == 0) {
-            contr = 1;
-            break;
-        }
-        par = strtok(NULL, ",");
-    }
-
-    // Aggiungi il nome a arraynomi se non esiste già
-    if (contr == 0) {
-        // Aggiungi la virgola al nome
-        strncat(nuovonome, ",", sizeof(nuovonome) - strlen(nuovonome) - 1);
-        // Aggiungi il nome a arraynomi
-        strncat(arraynomi, nuovonome, sizeof(arraynomi) - strlen(arraynomi) - 1);
-    }
-
-    contr = 0; */
-
-
 }
 
 
